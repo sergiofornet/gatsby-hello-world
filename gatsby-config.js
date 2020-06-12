@@ -32,15 +32,15 @@ module.exports = {
 				modulePath: `${__dirname}/src/cms/cms.js`,
 			},
 		},
-		{
-			resolve: `gatsby-source-cloudinary`,
-			options: {
-				cloudName: process.env.CLOUDINARY_API_CLOUD_NAME,
-				apiKey: process.env.CLOUDINARY_API_KEY,
-				apiSecret: process.env.CLOUDINARY_API_SECRET,
-				resourceType: `image`,
-				prefix: `samples/`,
-			},
-		},
+		// {
+		// 	resolve: `gatsby-source-cloudinary`,
+		// 	options: {
+		// 		cloudName: process.env.CLOUDINARY_API_CLOUD_NAME,
+		// 		apiKey: process.env.CLOUDINARY_API_KEY,
+		// 		apiSecret: process.env.CLOUDINARY_API_SECRET,
+		// 		resourceType: `image`,
+		// 		prefix: `samples/`,
+		// 	},
+		// },
 	],
 };

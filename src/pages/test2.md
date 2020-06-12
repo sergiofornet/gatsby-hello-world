@@ -5,5 +5,3 @@ title: test2
 thumbnail: https://res.cloudinary.com/dnuawhhqp/image/upload/v1591972273/sample.jpg
 ---
 # OK
-
-![]()

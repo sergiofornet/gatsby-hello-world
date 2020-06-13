@@ -26,10 +26,8 @@ export const query = graphql`
 				title
 				path
 				thumbnail
-				gallery {
-					image
-					imageresponsive
-				}
+				image
+				imageresponsive
 			}
 		}
 	}

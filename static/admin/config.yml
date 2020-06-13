@@ -24,3 +24,10 @@ collections:
           label: 'Featured Image',
           widget: 'image',
         }
+      - name: 'gallery'
+        label: 'Gallery'
+        widget: 'list'
+        summary: '{{fields.image}} - {{fields.imageresponsive}}'
+        fields:
+          - { name: image, label: Image, widget: image }
+          - { name: imageresponsive, label: Image2x, widget: image }
